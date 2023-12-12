@@ -14,7 +14,7 @@ function Projects() {
         <p className="card-text">Created a YouTube Clone to implement my knowledge in React.
         This project was created using the Youtube API and utilized react hooks for state management.</p>
         
-        <Link to="/" className="btn btn-danger">Read More</Link>
+        <Link to="/something" className="btn btn-danger">Read More</Link>
       </div>
     </div>
   </div>
@@ -23,7 +23,7 @@ function Projects() {
       <div className="card-body">
         <h5 className="card-title">Live Weather Forecast System</h5>
         <p className="card-text">Created project to see the live Weather Forecast. This forecast will helpful for the tourist, travellers and other people also.</p>
-        <Link to ="/" className="btn btn-danger">Read More</Link>
+        <Link to ="/something" className="btn btn-danger">Read More</Link>
       </div>
     </div>
   </div>
@@ -32,7 +32,7 @@ function Projects() {
       <div className="card-body">
         <h5 className="card-title">Online Medical Store System </h5>
         <p className="card-text">Created a project to order the medicines online from your home and we will deliver your medicines at your doorstep.</p>
-        <Link to="/" className="btn btn-danger">Read More</Link>
+        <Link to="/something" className="btn btn-danger">Read More</Link>
       </div>
     </div>
   </div>
