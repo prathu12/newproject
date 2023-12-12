@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div className='container-fluid bg-light text-dark min-vh-100 d-flex flex-column justify-content-center align-items-center'>
+    <div className='container-fluid bg-light text-dark min-vh-75 d-flex flex-column justify-content-center align-items-center'>
       <div className="projects">
         <h1 className='text-center mb-4 my-5'>Projects</h1>
       <div className="row">

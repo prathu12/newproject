@@ -2,7 +2,7 @@ import React from 'react'
 
 function Education() {
   return (
-    <div className='container text-light min-vh-100 d-flex flex-column justify-content-center align-items-center flex-column '>
+    <div className='container text-light min-vh-75 d-flex flex-column justify-content-center align-items-center flex-column '>
       <h2 className='text-dark my-5'>My Education</h2>
       <table className="table table-hover table-danger table-striped table-bordered">
   <thead>

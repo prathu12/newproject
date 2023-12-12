@@ -1,3 +1,4 @@
+import {BrowserRouter ,Route, Routes } from 'react-router-dom';
 import './App.css';
 import Education from './components/Education';
 import Footer from './components/Footer';
@@ -9,11 +10,19 @@ import Technologies from './components/Technologies';
 function App() {
   return (
     <div>
-      <NavBar />
-      <Home />
-      <Education />
-      <Technologies />
-      <Projects />
+      <BrowserRouter>
+        <NavBar />
+        <Routes >
+          <Route path='/' element={<Home />} />
+          <Route path='/Education' element={<Education />} />
+          <Route path='/Technologies' element={<Technologies />} />
+          <Route path='/Projects' element={<Projects />} />
+        </Routes>
+
+
+
+
+      </BrowserRouter>
       <Footer />
     </div>
   );

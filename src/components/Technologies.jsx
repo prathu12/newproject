@@ -2,7 +2,7 @@ import React from "react";
 
 function Technologies() {
   return (
-    <div className="container-fluid bg-dark text-light min-vh-100 d-flex flex-column justify-content-center align-items-center">
+    <div className="container-fluid bg-dark text-light min-vh-75 d-flex flex-column justify-content-center align-items-center">
       <h1 className="text-danger mb-4 my-5">Technologies I Worked</h1>
       <div className="row display-1">
 
