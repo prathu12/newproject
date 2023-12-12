@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import resume from "../Assets/Prathamesh-Pote-8999819779_A.pdf";
 
 function Home() {
@@ -16,12 +17,12 @@ function Home() {
         </p>
       </div>
       <div>
-        <a href={resume} className="btn btn-outline-danger mx-3">
+        <Link to={resume} className="btn btn-outline-danger mx-3">
           Download Resume
-        </a>
-        <a href={whatsapp_message} className="btn btn-outline-danger">
+        </Link>
+        <Link to={whatsapp_message} className="btn btn-outline-danger">
           Connect on WhatsApp
-        </a>
+        </Link>
       </div>
     </div>
   );
